@@ -1,0 +1,39 @@
+body{
+  cursor: url('./assets/pencil-rotated.svg'), auto ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  height: 100vh;
+
+}
+canvas{
+
+  background-color: white;
+}
+.Menu {
+  z-index: 1;
+  min-width: 190px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: #a3a3a32d;
+  height: 100%;
+}
+
+
+/* @media(max-width:550px){
+  .container{
+    overflow: hidden;
+    display: block;
+    height: 450px;
+
+  
+  }
+} */
