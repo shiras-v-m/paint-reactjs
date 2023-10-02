@@ -120,7 +120,11 @@ function App() {
       </canvas>
       </div>
 
+      <div className="copyright">
+                <p className='copyrightTxt'>Made with ❤️<span className='myName'>Shiras VM</span> </p>
+        </div>
     </div>
+
   )
 }
 
